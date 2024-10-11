@@ -1,5 +1,5 @@
-import { User } from "../models/userModel";
-import { Cart } from "../models/cartModel";
+import { User } from "../models/userModel.js";
+import { Cart } from "../models/cartModel.js";
 import expressAsyncHandler from "express-async-handler";
 
 // 5 Function {createCart ,updateQuantityItemCart,getUserCart,removeProductCart,emtyCart}
